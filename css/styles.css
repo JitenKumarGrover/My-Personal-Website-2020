@@ -28,7 +28,7 @@ h3{
 hr{
 	border: dotted black 6px;
 	border-bottom: none;
-	width: 8%;
+	width: 4%;
 }
 
 div{
@@ -99,20 +99,15 @@ img{
 
 .skill-row{
 	width: 50%;
-	margin: 100px auto 100px auto;
+	margin: auto;
 	text-align: left;
 	line-height: 2;
-	padding: 20px;
+	padding: 40px;
+	
 }
 
-.odd-skils{
+.skills-desc{
 	width: 22%;
 	float: left;
 	margin-right: 30px;
-}
-
-.even-skils{
-	width: 22%;
-	float: right;
-	margin-left: 30px;
 }
