@@ -4,6 +4,7 @@ body{
 
 .top_container{
 	background-color: #27496d;
+	padding: 10px;
 }
 
 h1{
@@ -17,6 +18,17 @@ h1{
 h2{
 	 padding-top: 30px;
 
+}
+
+h3{
+	color: #50bda1;
+
+}
+
+hr{
+	border: dotted black 6px;
+	border-bottom: none;
+	width: 8%;
 }
 
 div{
@@ -83,4 +95,24 @@ img{
 	font-size: 13px;
 	padding-bottom: 0px;
 
+}
+
+.skill-row{
+	width: 50%;
+	margin: 100px auto 100px auto;
+	text-align: left;
+	line-height: 2;
+	padding: 20px;
+}
+
+.odd-skils{
+	width: 22%;
+	float: left;
+	margin-right: 30px;
+}
+
+.even-skils{
+	width: 22%;
+	float: right;
+	margin-left: 30px;
 }
