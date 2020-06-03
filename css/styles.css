@@ -42,7 +42,7 @@ i{
 
 .p-heading{
 	font-family: 'Gloria Hallelujah', cursive;
-	font-size: 1.5rem;
+	font-size:calc(.5rem + 1.5vw);
 	color: #50bda1;
 	padding-top: 20px;
 	padding-bottom: 30px;
@@ -126,14 +126,23 @@ img{
 	
  }
 
- 
  @media (max-width: 800px){
-  h1, p {
+	h1, p {
+		font-size:calc(1rem + 3vw);
+   }
+   .p-heading{
+	   font-size: calc(.25rem + .5vw);
+   }
+  }
+ 
+/*  
+ @media (max-width: 800px){
+  h1, p, .p-heading {
 	 font-size: 2rem;
  }
 }
  @media (max-width: 1200px){
- h1, p {
+ h1, p, .p-heading {
 	 font-size: 2.2rem;
  }
 }
@@ -145,4 +154,4 @@ html {
 @media (max-width: 1200px)
 html {
     font-size: 1.1rem;
-}
+} */
