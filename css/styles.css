@@ -9,7 +9,7 @@ body{
 
 h1{
 	font-family: 'Sacramento', cursive;
-	font-size: 8rem;
+	font-size:calc(3rem + 6vw);
 	color: #50bda1;
     padding-top: 30px;
 
@@ -127,8 +127,22 @@ img{
  }
 
  
- @media only screen and (max-device-width: 765px){
-	 body{
-		 font-size: .2vw;
-	 }
+ @media (max-width: 800px){
+  h1, p {
+	 font-size: 2rem;
  }
+}
+ @media (max-width: 1200px){
+ h1, p {
+	 font-size: 2.2rem;
+ }
+}
+
+@media (max-width: 800px)
+html {
+    font-size: 1rem;
+}
+@media (max-width: 1200px)
+html {
+    font-size: 1.1rem;
+}
