@@ -111,3 +111,8 @@ img{
 	float: left;
 	margin-right: 30px;
 }
+
+#footer {
+	position:absolute;
+	bottom:0;
+ }
