@@ -9,7 +9,7 @@ body{
 
 h1{
 	font-family: 'Sacramento', cursive;
-	font-size: 800%;
+	font-size: 8rem;
 	color: #50bda1;
     padding-top: 30px;
 
@@ -42,7 +42,7 @@ i{
 
 .p-heading{
 	font-family: 'Gloria Hallelujah', cursive;
-	font-size: 150%;
+	font-size: 1.5rem;
 	color: #50bda1;
 	padding-top: 20px;
 	padding-bottom: 30px;
@@ -50,7 +50,7 @@ i{
 }
 
 img{
-	width: 50%;
+	width: 30%;
 }
 
 .middle_container{
@@ -74,7 +74,7 @@ img{
 		color: black;
 		padding-top: 10px;
 		font-family: 'Tenali Ramakrishna', sans-serif;
-		font-size: 187.5%;
+		font-size: 1.875rem;
 
 
 
@@ -92,7 +92,7 @@ img{
 
 .copyright{
 	color: white;
-	font-size: 81.25%;
+	font-size: .8125rem;
 	padding-bottom: 0px;
 
 }
@@ -116,4 +116,19 @@ img{
 	position: static;;
 	bottom:0;
 	width: 100%;
+ }
+
+ .project-row{
+	width: 50%;
+	margin: auto;
+	line-height: 2;
+	padding: 40px;
+	
+ }
+
+ 
+ @media only screen and (max-device-width: 765px){
+	 body{
+		 font-size: .2vw;
+	 }
  }
