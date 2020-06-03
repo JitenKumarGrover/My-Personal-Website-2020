@@ -67,17 +67,14 @@ img{
 }
 
 .hey{
-	width: 150px;
+	width: calc(9rem + 1vw);
 }
 
 .p-middle{
 		color: black;
 		padding-top: 10px;
 		font-family: 'Tenali Ramakrishna', sans-serif;
-		font-size: 1.875rem;
-
-
-
+		font-size:calc(1rem + 1.5vw);
 }
 
 .bottom_container{
@@ -126,32 +123,30 @@ img{
 	
  }
 
+ .projects-desp{
+	color: black;
+	padding-top: 10px;
+	font-family: 'Tenali Ramakrishna', sans-serif;
+	font-size:calc(.5rem + 1vw);
+ }
+
  @media (max-width: 800px){
 	h1, p {
-		font-size:calc(1rem + 3vw);
+		font-size:calc(2.5rem + 4vw);
    }
    .p-heading{
-	   font-size: calc(.25rem + .5vw);
+	   font-size: calc(.25rem + 1vw);
    }
+   .p-middle, .projects-desp, h3{
+	font-size: calc(.5rem + 1.5vw);
+	}
+	.hey{
+		width: calc(6.5rem + 1vw);
+	}
+	.projects-desp, .skill-year{
+		font-size:calc(.3rem + 1vw);
+	 }
+	 .h6{
+		font-size:calc(.5rem + 1vw);
+	 }
   }
- 
-/*  
- @media (max-width: 800px){
-  h1, p, .p-heading {
-	 font-size: 2rem;
- }
-}
- @media (max-width: 1200px){
- h1, p, .p-heading {
-	 font-size: 2.2rem;
- }
-}
-
-@media (max-width: 800px)
-html {
-    font-size: 1rem;
-}
-@media (max-width: 1200px)
-html {
-    font-size: 1.1rem;
-} */
