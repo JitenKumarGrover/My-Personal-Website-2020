@@ -5,13 +5,13 @@ body{
 .top_container{
 	background-color: #27496d;
 	padding: 10px;
-}
+	}
 
 h1{
 	font-family: 'Sacramento', cursive;
-	font-size:calc(3rem + 6vw);
+	font-size: 8em;
 	color: #50bda1;
-    padding-top: 30px;
+    padding-top: 10px;
 
 }
 
@@ -42,7 +42,7 @@ i{
 
 .p-heading{
 	font-family: 'Gloria Hallelujah', cursive;
-	font-size:calc(.5rem + 1.5vw);
+	font-size: 1.5rem;
 	color: #50bda1;
 	padding-top: 20px;
 	padding-bottom: 30px;
@@ -74,7 +74,7 @@ img{
 		color: black;
 		padding-top: 10px;
 		font-family: 'Tenali Ramakrishna', sans-serif;
-		font-size:calc(1rem + 1.5vw);
+		font-size: 30px;
 }
 
 .bottom_container{
@@ -87,13 +87,8 @@ img{
 	padding-bottom: 10px;
 }
 
-.copyright{
-	color: white;
-	font-size: .8125rem;
-	padding-bottom: 0px;
 
-}
-
+/* Skills */
 .skill-row{
 	width: 50%;
 	margin: auto;
@@ -103,32 +98,42 @@ img{
 	
 }
 
-.skills-desc{
+.skills-img{
 	width: 22%;
 	float: left;
 	margin-right: 30px;
 }
 
-#footer {
-	position: static;;
-	bottom:0;
-	width: 100%;
- }
 
- .project-row{
-	width: 50%;
-	margin: auto;
-	line-height: 2;
-	padding: 40px;
-	
- }
-
+/* Project */
  .projects-desp{
 	color: black;
 	padding-top: 10px;
 	font-family: 'Tenali Ramakrishna', sans-serif;
-	font-size:calc(.5rem + 1vw);
+	font-size:25px;
  }
+
+ .project-row{
+	width: 50%;
+	margin: 30px auto;
+	line-height: 2;
+	padding: 40px;
+	
+ } 
+
+ /* footer */
+ #footer {
+	position: static;
+	bottom:0;
+	width: 100%;
+ }
+
+ .copyright{
+	color: white;
+	font-size: .8125rem;
+	padding-bottom: 0px;
+
+}
 
  @media (max-width: 800px){
 	h1, p {
