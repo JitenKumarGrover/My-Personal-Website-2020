@@ -105,7 +105,8 @@ img{
 }
 
 .skills-img{
-	width: 22%;
+	width:  20%;
+    /* height: 104px; */
 	float: left;
 	margin-right: 30px;
 }
@@ -159,8 +160,14 @@ img{
 		font-size: .9em
 	}
 
+	.skills-img{
+		width:  80px;
+		height: 80px;
+	}
+
 	.skill-year{
-		font-size: .7em
+		font-size: .7em;
+	
 	}
 
 	.p-desp{
@@ -169,5 +176,15 @@ img{
 	.project-row{
 		width: 85%;
 	 }
-	
+	}
+
+	@media (min-width: 400px) and (max-width: 1325px){
+		.skills-img{
+			width:  150px;
+			height: 150px;
+		}
+	}
+
+	.under_man{
+		width: 100%;
 	}
