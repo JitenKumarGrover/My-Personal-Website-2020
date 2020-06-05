@@ -24,8 +24,11 @@ h1{
   
 }
 
+#hi{
+	padding-top: 30px;
+}
+
 .sub_heading{
-	 padding-top: 30px;
 	 color: #50bda1;
 	 font-size: 2em;
 
@@ -98,25 +101,44 @@ img{
 .skill-row{
 	width: 50%;
 	margin: auto;
-	text-align: left;
-	line-height: 2;
-	padding: 40px;
+	text-align: center;
+	line-height: 1.3;
+	padding: 5px;
 	
 }
 
+table{
+	width: 100%;
+}
+
+td{
+	text-align: left;
+}
+
+.table-sub_heading{
+	text-align: center;
+	padding: 0rem;
+}
+
+.colume_one{
+	width: 100px;
+}
+
+.skill-year{
+	text-align: right;
+}
+
 .skills-img{
-	width:  22%;
-	float: left;
-	margin-right: 30px;
+	width:  130px;
 }
 
 
 /* Project */
  .project-row{
-	width: 50%;
+	width: 80%;
 	margin: 30px auto;
-	line-height: 2;
-	padding: 40px;
+	line-height: 1.3;
+	padding: 5px;
 	
  } 
 
@@ -148,7 +170,6 @@ img{
    }
 
    .sub_heading{
-	padding-top: 30px;
 	font-size: 1em;}
 
 	hr{
@@ -159,6 +180,14 @@ img{
 		font-size: .9em
 	}
 
+	.table-sub_heading{
+		padding-top: 0rem;
+	}
+
+	.skills-img{
+		width:  80px;
+	}
+
 	.skill-year{
 		font-size: .7em;
 	
@@ -167,11 +196,8 @@ img{
 	.p-desp{
 		font-size: 15px;
 	}
-	.project-row{
-		width: 85%;
-	 }
 	}
-
+/* 
 	@media (min-width: 970px) and (max-width: 1100px){
 		.skills-img{
 			width:  150px;
@@ -184,7 +210,7 @@ img{
 			width:  105px;
 			height: 105px;
 		}
-	}
+	} */
 
 	.under_man{
 		width: 100%;
