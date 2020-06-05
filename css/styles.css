@@ -15,13 +15,19 @@ h1{
 
 }
 
-h2{
-	 padding-top: 30px;
-
+.main_sub-heading{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 1.5rem;
+	color: #50bda1;
+	padding-top: 20px;
+	padding-bottom: 30px;
+  
 }
 
-h3{
-	color: #50bda1;
+.sub_heading{
+	 padding-top: 30px;
+	 color: #50bda1;
+	 font-size: 2em;
 
 }
 
@@ -40,18 +46,18 @@ i{
 	margin-bottom: 0px;
 }
 
-.p-heading{
-	font-family: 'Gloria Hallelujah', cursive;
-	font-size: 1.5rem;
-	color: #50bda1;
-	padding-top: 20px;
-	padding-bottom: 30px;
-  
-}
+
 
 img{
-	width: 30%;
+	width: 35%;
 }
+
+.p-desp{
+	color: black;
+	padding-top: 10px;
+	font-family: 'Tenali Ramakrishna', sans-serif;
+	font-size:25px;
+ }
 
 .middle_container{
 		color: #50bda1;
@@ -67,7 +73,7 @@ img{
 }
 
 .hey{
-	width: calc(9rem + 1vw);
+	width: 10em;
 }
 
 .p-middle{
@@ -106,13 +112,6 @@ img{
 
 
 /* Project */
- .projects-desp{
-	color: black;
-	padding-top: 10px;
-	font-family: 'Tenali Ramakrishna', sans-serif;
-	font-size:25px;
- }
-
  .project-row{
 	width: 50%;
 	margin: 30px auto;
@@ -136,22 +135,39 @@ img{
 }
 
  @media (max-width: 800px){
-	h1, p {
-		font-size:calc(2.5rem + 4vw);
+	h1{
+		font-size: 3.5em;
    }
-   .p-heading{
-	   font-size: calc(.25rem + 1vw);
+
+   .main_sub-heading{
+	   font-size: 1em;
    }
-   .p-middle, .projects-desp, h3{
-	font-size: calc(.5rem + 1.5vw);
+
+   .hey{
+	   font-size: .5em;
+   }
+
+   .sub_heading{
+	padding-top: 30px;
+	font-size: 1em;}
+
+	hr{
+		size: 1.6px;
 	}
-	.hey{
-		width: calc(6.5rem + 1vw);
+
+	.sub_sub_heading{
+		font-size: .9em
 	}
-	.projects-desp, .skill-year{
-		font-size:calc(.3rem + 1vw);
+
+	.skill-year{
+		font-size: .7em
+	}
+
+	.p-desp{
+		font-size: 15px;
+	}
+	.project-row{
+		width: 85%;
 	 }
-	 .h6{
-		font-size:calc(.5rem + 1vw);
-	 }
-	 }
+	
+	}
