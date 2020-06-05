@@ -179,6 +179,13 @@ img{
 		}
 	}
 
+	@media (min-width: 700px) and (max-width: 950px){
+		.skills-img{
+			width:  105px;
+			height: 105px;
+		}
+	}
+
 	.under_man{
 		width: 100%;
 	}
