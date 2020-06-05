@@ -178,7 +178,7 @@ img{
 	 }
 	}
 
-	@media (min-width: 400px) and (max-width: 1325px){
+	@media (min-width: 800px) and (max-width: 1100px){
 		.skills-img{
 			width:  150px;
 			height: 150px;
