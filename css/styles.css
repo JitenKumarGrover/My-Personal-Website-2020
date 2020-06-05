@@ -122,6 +122,7 @@ td{
 
 .colume_one{
 	width: 100px;
+	text-align: center;
 }
 
 .skill-year{
@@ -197,20 +198,6 @@ td{
 		font-size: 15px;
 	}
 	}
-/* 
-	@media (min-width: 970px) and (max-width: 1100px){
-		.skills-img{
-			width:  150px;
-			height: 150px;
-		}
-	}
-
-	@media (min-width: 700px) and (max-width: 969px){
-		.skills-img{
-			width:  105px;
-			height: 105px;
-		}
-	} */
 
 	.under_man{
 		width: 100%;
