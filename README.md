@@ -1,3 +1,3 @@
 # MyBlog
 
-https://jitenkumargrover.github.io/MyBlog/
+https://jitenkumargrover.github.io/My-Personal-Website/
